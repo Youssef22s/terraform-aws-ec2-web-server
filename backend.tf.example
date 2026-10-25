@@ -1,0 +1,8 @@
+terraform {
+  backend "s3" {
+    bucket       = "REPLACE_WITH_YOUR_S3_BUCKET"
+    key          = "day03/terraform.tfstate"
+    region       = "us-east-1"
+    use_lockfile = true
+  }
+}

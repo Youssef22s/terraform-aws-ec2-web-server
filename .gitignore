@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Secrets and local credentials
+*.tfvars
+*.tfvars.json
+*.pem
+*.key
+.env
+.env.*
+
+# Local Terraform backend configuration
+backend.tf
+
+# macOS
+.DS_Store
